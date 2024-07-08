@@ -1,0 +1,51 @@
+.sidebar {
+  width: 150px;
+  background-color: #FFFFFF;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 100vh;
+  border-right: 1px solid #f5caca;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #FF6F61;
+}
+.sidebar>.logo>img{
+  height: 50px;
+  width: 70px;
+  
+}
+
+.sidebar a {
+  color: rgb(8, 7, 7);
+  text-decoration: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  height: 2px;
+}
+
+.sidebar a.active-link {
+  background-color: white;
+  color: #3c3c9c;
+}
+
+.sidebar>.NavLink >:hover{
+  color: blueviolet;
+}
+.sidebar a:hover {
+  background-color: white;
+  color: #2222eb; 
+}
+
+.logout {
+  margin-top: auto;
+  color: rgb(236, 72, 72);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
